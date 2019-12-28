@@ -1,0 +1,108 @@
+Memoria Ejercicio Final
+Construcción de página web en HTML
+
+1. Introducción
+
+El principal objetivo de este elemento de pre-work es el aprendizaje del lenguaje HTML para la construcción de páginas web. Para ello, se han propuesto diferentes lecciones en distintos aspectos del lenguaje HTML, hasta desembocar en un proyecto final que aúne todos los elementos aprendidos.
+
+Para este proyecto, se va a crear una página que sirva como frontal para una empresa que se dedica al cuidado de mascotas durante la jornada laboral de sus dueños, además de llevar a cabo su re-educación para que desaprendan ciertos hábitos nocivos o poco saludables.
+
+A lo largo de la presente memoria, se mostrarán los pasos que se han realizado para llegar al producto final, se explicará el motivo de cada una de las elecciones realizadas y se terminará con una conclusión sobre el contenido del ejercicio.
+
+2. Procedimiento
+
+El primer paso que se ha realizado ha sido la creación del esqueleto de la página, esto es, todo sobre lo que se asienta el resto de la página web. Esto se realiza con el siguiente código:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Masco-Time</title>
+  </head>
+  <body>
+  </body>
+</html>
+
+Desde esta base, se forjará el resto del documento HTML.
+
+El siguiente paso es desarrollar la estructura que debería tener el cuerpo del documento. Ateniéndonos a lo que se indica en el enunciado, se introducen los siguientes elementos en el cuerpo del documento:
+
+    <div>
+      <p>¿Quienes somos?</p>
+    </div>
+    <div
+      <p>¿Quienes forman nuestro equipo?</p>
+    </div>
+    <div>
+      <p>¿Qué servicios ofrecemos?</p>
+    </div>
+    <div>
+      <p>¿Cómo reservar nuestros servicios?</p>
+    </div>
+    <div>
+      <p>¿Cuáles son nuestros precios?</p>
+    </div>
+    <div>
+      <p>¡Contacte con nosotros!</p>
+    </div>
+
+Desde esta base, y considerando la posible necesidad de desplazarse de manera rápida, incluimos los siguientes enlaces, disponiendo el punto de movimiento en el sitio correspondiente:
+
+  <a href="#identidad">¿Quienes somos?</a> <a href="#equipo">¿Quienes forman nuestro equipo?</a> <a href="#servicios">¿Qué servicios ofrecemos?</a> <a href="#reserva">¿Cómo reservar nuestros servicios?</a> <a href="#precios">¿Cuáles son nuestros precios?</a> <a href="#contacto">¡Contacte con nosotros!</a><br>
+
+   <p>¿Quienes somos?<a name="identidad"></a></p>
+
+Con los enlaces ya preparados, se ha decidido la información a introducir dentro de cada uno de los apartados. Por ejemplo, para el primer apartado ("¿Quienes somos?") se incluye esta información:
+
+   <p>Masco-Time es una joven empresa, llena de ilusión y entusiasmo, que se dedica a un servicio que consideramos importante en los tiempos actuales: el cuidado de mascotas.<br>
+   En la actualidad, son muchas las personas que tienen mascotas (como perros, gatos, pájaros y otros) con las que les gusta poder relacionarse, cuidar y acompañar, pero se ven obligados a dejar a su mascota sola en el hogar mientras trabajan, sin poder actuar en caso de que dicha mascota sufra algún problema hasta que tal vez sea demasiado tarde.<br>
+   Además, está demostrado científicamente que animales y personas se benefician mutuamente de la relación que se forma entre ambos, algo que una ausencia prolongada de manera regular puede dificultar.<br>
+   Por ello, en Masco-Time nos ofrecemos, por un precio asequible, a cuidar de su mascota durante las horas en las que usted se encuentre trabajando. Sea cual sea este periodo de tiempo, <b>Masco-Time</b> hará cuanto esté en su mano para que al regresar pueda ver a su mascota sana y feliz.<br>
+   Además, nuestros capacitados expertos en mascotas podrán, además de cuidar de su mascota, educarla para que siga unos hábitos más saludables.</p>
+
+En los demás apartados, la información se incluye mediante el uso de listas sin orden, listas con orden y una tabla, reflejando así todos los datos necesarios para conocer la empresa y a sus trabajadores, determinar los servicios ofrecidos y cómo contratarlos y saber el precio y método de contacto.
+
+Una vez introducida esta información, pasamos a la edición del contenido, usando etiquetas para resaltar los elementos importantes como nombres:
+   <ul>
+    <li><b>Marco</b>: veterinario, con tres años de experiencia en entrenamiento de perros.</li>
+    <li><b>Adelaida</b>: psicóloga animal, con dos años de experiencia en la materia.</li>
+    <li><b>Sonia</b>: nuestra capaz cuidadora de gatos y otros felinos, algo que lleva haciendo más de quince años.</li>
+    <li><b>Cristóbal</b>: los pájaros y los peces son lo suyo, y es algo que le viene de lejos (con padre ornitólogo y madre veterinaria, cualquiera sería bueno en ello).</li>
+    <li><b>Oihane</b>: con un nombre tan exótico, está claro que lo que se le da bien es cuidar de las mascotas exóticas.</li>
+    <li><b>Toni</b>: el comodín del grupo. No es un experto en un tipo de animales concreto, pero sí se le dan bien todos ellos.</li>
+    <li><b>Irene</b>: por algún motivo, los animales la adoran, y ella los adora a ellos. ¡No hay ni uno que se le resista!</li>
+    <li><b>Mar</b>: nuestra segunda veterinaria, una de las mejores de su promoción y con cinco años de experiencia curando mascotas.</li>
+    <li><b>Enrique</b>: nuestra última incorporación al grupo. Más entusiasmado con los animales que todos los demás. Juntos.</li>
+   </ul>
+
+Con el objetivo de dar algo más de variedad al texto, también se han introducido varios símbolos con el fin de mostrar algunos conceptos:
+
+   <ul>
+    <li>Por teléfono: &#9742; 91 369 22 30</li>
+    <li>Por WhatsApp: &#9990; 627 268 469</li>
+    <li>Por correo electrónico: &#9993; masco-time@hotmail.com</li>
+    <li>En nuestra Guardería: C/Félix Rodríguez de la Fuente, nº40, 28017, Madrid</li>
+   </ul></p>
+
+Finalmente, se ha insertado una imagen en la parte superior de la página, en la que mostrar que los trabajos de esta empresa se pueden asociar a cualquier tipo de animal doméstico:
+  <img src="https://dam.ngenespanol.com/wp-content/uploads/2019/10/aninmales-dia-mundial.jpg" alt="Cuidamos de cualquier animal doméstico">
+
+3. Explicación
+
+Algunos elementos requieren de una indicación de por qué han sido escogidos en vez de otros, o por qué se están utilizando.
+
+En primer lugar, las referencias y anclas: con este elemento, se puede viajar con mayor rapidez a lo largo de la página web, guiando al usuario al punto que desea consultar en vez de tener que buscarlo moviéndose por la página. De igual manera, incluir un enlace para volver al principio puede hacer más fácil el retorno si no pueden usarse otros métodos como utilizar la tecla de inicio del teclado.
+
+En la presentación, se utiliza un párrafo único con varios saltos de línea. El razonamiento detrás de esto es que la información puede presentarse de esta manera de manera fácil de leer y sin ocupar demasiado espacio dentro de la pantalla.
+
+Los componentes del equipo, los servicios ofrecidos y los métodos de contacto se muestran en forma de lista sin ordenar, ya que se trata de información que hay que distinguir bien, pero no existe necesidad alguna de presentarlos en un orden específico.
+
+Sí se hace necesario el uso de un órden específico en la explicación del procedimiento de reserva de servicios, ya que los pasos que se deben seguir deben hacerse de una manera concreta, especificada en el texto. Se incluyen aparte un conjunto de instrucciones que no forman parte del procedimiento, pero que sí deben ser tenidas en cuenta.
+
+Los precios se incluyen en forma de tabla para poder observar los valores deseados de manera directa.
+
+Se incluyen símbolos en la lista de formas de contacto para que se pueda identificar fácilmente cómo es el método de contacto sugerido.
+
+4. Conclusión
+
+Este documento HTML muestra de manera sencilla y eficaz cómo sería la página web básica de la empresa Masco-Time. El formato de presentación de la información hace resaltar la información más importante y facilita la comprensión de su contenido. Además, se facilita la modificación de los datos, al quedar cada tipo de información claramente separada del resto. El procedimiento sigue un formato claro y simple, y permite que cualquier añadido posterior de modificación del formato afecte a los elementos correspondientes sin causar problemas.
